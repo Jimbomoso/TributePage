@@ -3,49 +3,108 @@ body {
     padding: 0px; 
 }
 #main {
-    background: #e7ebeb;
+    background-image: url("https://images.cdn2.stockunlimited.net/preview1300/united-states-of-america-background-design_1538576.jpg");
 }
+
 #title {
+    background-image: url("https://i.pinimg.com/originals/a2/18/df/a218dfe6fdfd3b7e7c3f4e10a12d3ea4.png");
     text-align: center;
-    font-size: 48px;
-    background: rgb(255, 255, 255);
+    font-size: 4em;
     margin: 0px;
-    padding: 0px;
+    padding: 1%;
+    color: rgb(249, 144, 52);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
 #img-div {
     text-align: center;
+    padding: 1%;
+    border-top: 1px solid white;
 }
+
+#img-caption {
+    color: rgb(249, 144, 52);
+    font-weight: bold;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    padding: 1%;
+    margin-top: 0px;
+}
+
 #image {
     width: 100%;
-    max-width:800px;
+    max-width:50%;
     height: auto;
     display: block;
     margin-right: auto;
     margin-left: auto;
+    /* border: 10px solid white; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(244, 240, 240, 0.961);
+}
+
+#tribute-info-content {
+    background: rgba(12, 7, 60, 0.356);
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border-left:1px solid white;
+    border-right:1px solid white;
 }
 
 #tribute-info h2 {
     text-align: center;
     font-size: 24px;
+    color: rgb(249, 144, 52);
+    background: rgba(12, 7, 60, 0.356);
+    padding: 5px;
 }
 
-#tribute-info h3, {
-    font-size: 20px;
+#tribute-info h3 {
+    text-align: center;
+    color: rgb(249, 144, 52);
+    background: rgba(12, 7, 60, 0.356);
+    padding: 5px;
+}
+
+#tribute-info {
+    background: rgba(203, 203, 216, 0.884);
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
 }
 
 #tribute-info p {
     padding: 10px;
     line-height: 1.5em;
+    color: rgb(255, 255, 255);
+    
 }
 
-#tribute-info {
-    background: rgb(255, 255, 255);
-    max-width: 800px;
+#tribute-link {
+    display: block;
+    text-align: center;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
-    padding: 3px;
+    color: rgb(255, 0, 0);
+    padding: 5px;
 }
 
 
